@@ -1,0 +1,8 @@
+.banner__botoes{
+    transform: translate(45vw);
+    margin-top: 80vh;
+    position: absolute;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}

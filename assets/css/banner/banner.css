@@ -1,3 +1,13 @@
 .banner{
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+    scroll-behavior: smooth;
 }
+
+.banner-invisivel{
+    display: none;
+}
+
