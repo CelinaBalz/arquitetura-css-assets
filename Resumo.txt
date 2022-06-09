@@ -1,0 +1,49 @@
+
+Esse documento relata minhas experiências e aprendizados durante a realização do 
+curso "Arquitetura CSS: descomplicando os problemas" da plataforma Alura com o professor
+Matheus Castiglioni.
+
+1. modulo
+- Utilização de seletores de classe prioritariamente aos seletores de elementos. 
+- Criar uma arquitetura CSS dividindo os componentes e seus respectivos elementos em pastas
+utilizando a metodologia Atomic Design, dividindo o corpo do site como  átomos, moléculas,
+organismos, modelos e paginas.
+
+2. Modulo
+
+- Padronizar a nomenclatura de classes (Utilizando o BEM no curso).
+    As classes BEM são nomeadas dessa forma:
+        bloco
+        bloco__elemento
+        bloco--modificador
+        bloco__elemento--modificador
+Sobre essa sessão de estudos pesquisei por outros padrões de nomenclatura e acabei me
+interessando mais pelo SMACSS devido ao metodo BEM deixar os nomes extensos. 
+
+- Position absolute que faz o elemento se posicionar com referencia ao position relative.
+
+4. Modulo
+
+- Utilizar o padrao camel case na existencia de palavras compostas no nome de um bloco.
+- Utilizar - no nome de classes compostas. 
+- Imagens ilustrativas devem estar presentes diretamente no CSS 
+- Diferente da convenção utilizada no curso, penso que os blocos localizados dentro de 
+outros blocos deveriam estar dentro deles na arquitetura de pastas para uma melhor organização.
+Ex de arquitetura de pastas CSS:
+
+  |-css
+  |  |--quemSomos 
+  |    |---pessoas
+
+- Colocar as propriedades em ordem alfabetica 
+
+5. Modulo
+
+-- Colocar o media querie de cada componente em seu devido documento
+-- Retirar atributos repetidos fora dos media queries
+
+Curso finalizado e como no design no figma alguns itens não foram criados (modal de receitas e formualrio de contato) estarei fazendo algumas alterações para acionar funcionalidades com o aprendizado do curso. 
+Inicialmente estarei adicionando um botao para adicionar receitas e levar a tela demonstrada no figma.
+Depois estarei linkando minhas redes ao footer
+E no design o banner que inserimos em curso está apresentado com 3 pontos inferiores, o que normalmente representa um carousel, onde cada bolinha representa a passagem por uma imagem.
+ 
