@@ -46,4 +46,9 @@ Curso finalizado e como no design no figma alguns itens não foram criados (moda
 Inicialmente estarei adicionando um botao para adicionar receitas e levar a tela demonstrada no figma.
 Depois estarei linkando minhas redes ao footer
 E no design o banner que inserimos em curso está apresentado com 3 pontos inferiores, o que normalmente representa um carousel, onde cada bolinha representa a passagem por uma imagem.
- 
+
+1. Estagio inicial
+  O primeiro passo foi encontrar imagens seguindo a mesma linha de cores, iluminação e tema.
+  Par isso inseri a imagem utilizada no banner no google imagens (Search baseado na imagem inserida)
+  Então encontrei que essa imagem gratuita foi retirada do Unsplash na sessão Market, e encontrei algumas similares para utilizar no mesmo site.
+  
