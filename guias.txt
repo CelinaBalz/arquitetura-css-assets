@@ -1,0 +1,17 @@
+1. modulo
+- Utilização de seletores. 
+- Criar uma arquitetura CSS dividindo os componentes e seus respectivos elementos em pastas
+utilizando a metodologia Atomic Design, dividindo o corpo do site como  átomos, moléculas, organismos, modelos e paginas.
+
+2. Modulo
+
+- Padronizar a nomenclatura de classes (Utilizando o BEM no curso)
+    As classes BEM são nomeadas dessa forma:
+        bloco
+        bloco__elemento
+        bloco--modificador
+        bloco__elemento--modificador
+Sobre essa sessão de estudos pesquisei por outros padrões de nomenclatura e acabei me interessando 
+mais pelo SMACSS devido ao metodo BEM deixar os nomes extensos. 
+
+- Position absolute que faz o elemento se posicionar com referencia ao position relative.
