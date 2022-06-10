@@ -42,13 +42,24 @@ Ex de arquitetura de pastas CSS:
 -- Colocar o media querie de cada componente em seu devido documento
 -- Retirar atributos repetidos fora dos media queries
 
-Curso finalizado e como no design no figma alguns itens não foram criados (modal de receitas e formualrio de contato) estarei fazendo algumas alterações para acionar funcionalidades com o aprendizado do curso. 
-Inicialmente estarei adicionando um botao para adicionar receitas e levar a tela demonstrada no figma.
-Depois estarei linkando minhas redes ao footer
-E no design o banner que inserimos em curso está apresentado com 3 pontos inferiores, o que normalmente representa um carousel, onde cada bolinha representa a passagem por uma imagem.
+-----------------------------------------------------------------------------
+Curso finalizado e como no design no figma alguns itens não foram criados (modal de receitas e formualrio de contato) estarei fazendo algumas alterações para adicionar funcionalidades com o aprendizado do curso. 
+Objetivos:
+Funcionalidade de adicionar receitas
+Alterações no design para se parecer mais com o figma e adcionar funcionalidades
+Linkar minhas redes. 
 
 1. Estagio inicial
   O primeiro passo foi encontrar imagens seguindo a mesma linha de cores, iluminação e tema.
-  Par isso inseri a imagem utilizada no banner no google imagens (Search baseado na imagem inserida)
-  Então encontrei que essa imagem gratuita foi retirada do Unsplash na sessão Market, e encontrei algumas similares para utilizar no mesmo site.
+  Para isso inseri a imagem utilizada no banner no google imagens (Search baseado na imagem inserida)
+  Então encontrei que essa imagem gratuita foi retirada do Unsplash na sessão Market, logo retirei algumas similares para utilizar no mesmo site.
   
+
+
+2. Criação de slider no banner
+Como no design apresentado no figma havia 3 pontos inferiores demarcados no banner resolvi adicionar essa marcação (que não havia sido feita no curso), comummente, esses pontos são botoes sliders ou wrapper nas paginas então decidi criar essa funcionalidade com 3 banners.
+Criei novos blocos para banner-botao e banner-botoes, uma animação de fade para aparição dos slides e utilizei o javascript para mudança entre banners ao clicar nos botões.
+
+3. Novas funções as receitas
+
+Criando novo botao para acionar o modal de receitas e fiz pequenas alteracoes no hover do bloco receitas.
