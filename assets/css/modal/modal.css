@@ -1,0 +1,8 @@
+.modal{
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+    height: 31rem ;
+    width: 43rem;
+    border-radius: 5px;
+}

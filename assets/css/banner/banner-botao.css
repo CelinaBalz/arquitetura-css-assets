@@ -6,3 +6,15 @@
     border: none;
     box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.75);;
 }
+
+.banner__botao:disabled{
+    background-color: rgb(95, 86, 86);
+}
+
+.banner__botao:active{
+    background-color: blue;
+}
+
+.banner__botao:hover{
+    background-color: red;
+}

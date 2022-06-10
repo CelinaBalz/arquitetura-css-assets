@@ -1,0 +1,8 @@
+.formulario__botao-fechar{
+    background-color: white;
+    border: none;
+    font-size: 2rem;
+    color: grey;
+    font-family:  'Roboto', sans-serif;
+    font-weight: bolder;
+}

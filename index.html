@@ -39,6 +39,14 @@
         <link rel="stylesheet" href="assets/css/pessoas/pessoa-funcao.css">
         <link rel="stylesheet" href="assets/css/pessoas/pessoa-nome.css">
         <link rel="stylesheet" href="assets/css/rodape.css">
+        <link rel="stylesheet" href="assets/css/modal-botao/modal-receita.css">
+        <link rel="stylesheet" href="assets/css/modal-botao/modal-receita__botao.css">
+        <link rel="stylesheet" href="assets/css/modal/formulario-botao.css">
+        <link rel="stylesheet" href="assets/css/modal/formulario-campos.css">
+        <link rel="stylesheet" href="assets/css/modal/formulario-cabecalho.css">
+        <link rel="stylesheet" href="assets/css/modal/formulario.css">
+        <link rel="stylesheet" href="assets/css/modal/modal.css">
+         
 
     </head>
     <body>
@@ -47,32 +55,29 @@
             <nav class="menu">
                 <ul class="menu__lista">
                     <li class="menu__item" ><a class="menu__link ativo"  href="#">Início</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Receitas</a></li>
+                    <li class="menu__item"><a class="menu__link" href="" >Receitas</a></li>
                     <li class="menu__item"><a class="menu__link" href="#">Quem somos</a></li>
                     <li class="menu__item"><a class="menu__link" href="#">Comunidade</a></li>
                 </ul>
             </nav>
         </header>
         <section class="banners">
-            <div class="banner banner__imagem ">
+            <div class="banner banner__imagem banner__imagem-1 banner-visivel" id="banner-1">
                 <h2 class="banner__titulo">Reaproveite melhor os alimentos</h2>
              </div>
-                 <div class="banner banner__imagem banner__imagem-2">
+            <div class="banner banner__imagem banner__imagem-2" id="banner-2">
                      <h2 class="banner__titulo">A cozinha ideal</h2>
-                    </div>
-                    <div class="banner banner__imagem banner__imagem-3">
-                        <h2 class="banner__titulo">Viver com mais sabor</h2>
-                    </div>
-                    <!--
+            </div>
+            <div class="banner banner__imagem  banner__imagem-3" id="banner-3">
+                <h2 class="banner__titulo">Viver com mais sabor</h2>
+            </div>
                         <div class="banner__botoes">
-                            <button class="banner__botao"></button>
-                            <button class="banner__botao"></button>
-                            <button class="banner__botao"></button>
+                            <button type="button" class="banner__botao" onclick="sliderFunction(bannerUm)"   ></button>
+                            <button type="button" class="banner__botao" onclick="sliderFunction(bannerDois)" ></button>
+                            <button type="button" class="banner__botao" onclick="sliderFunction(bannerTres)" ></button>
                         </div>
 
-                    -->
         </section>
-
         <section class="sobre">
             <h3 class="sobre__titulo">Receitas para economizar e ganhar saúde</h3>
             <p class="sobre__descricao">   Nossas receitas ajudam você a aproveitar melhor os alimentos, economizar, ganhar tempo e praticidade</p>
@@ -127,6 +132,12 @@
                 </div>
             </div>
         </section>
+        <div class="modal-receita">
+            <button class="receita__botao modal-receita__botao">
+                Adicionar sua receita +
+            </button>
+        </div>
+
         <section class="quem-somos">
             <h3 class="quem-somos__titulo">Quem somos</h3>
             <p class="quem-somos__descricao">Conheça a comunidade por trás da iniciativa</p>
@@ -148,9 +159,49 @@
                 </div>
             </div>
         </section>
+        <section class="modal">
+            <div class="formulario">
+                <div class="formulario-cabecalho">
+                    <h3 class="formulario__titulo">Formulário de contato</h3>
+                    <button class="formulario__botao-fechar">X</button>
+                    
+                </div>
+                <div class="formulario__campos">
+                    <div class="campos campos__email">
+                        <label class="campos__label" for="email">Email</label>
+                        <input class="campos__input" placeholder="Email" type="email" name="email" id="email">
+                    </div>
+                    <div class="campos campos__senha">
+                        <label class="campos__label" for="senha">Senha</label>
+                        <input class="campos__input" placeholder="Senha" type="password" name="senha" id="senha">
+                    </div>
+                    <div class="campos campos__endereco">
+                        <label class="campos__label" for="endereço">Endereço</label>
+                        <input class="campos__input" placeholder="123 Rua principal" type="text" name="endereço" id="endereço">
+                    </div>
+                    <div class="campos campos__endereco-2">
+                        <label class="campos__label" for="endereço2">Endereço</label>
+                        <input class="campos__input" placeholder="Apartamento, estudio ou terreo" type="text" name="endereço2" id="endereço2">
+                    </div>
+                    <div class="campos campos__cidade">
+                        <label class="campos__label" for="cidade">Cidade</label>
+                        <input class="campos__input" type="text" name="cidade" id="cidade">
+                    </div>
+                    <div class="campos campos__estado">
+                        <label class="campos__label" for="estado">Estado</label>
+                        <input class="campos__input" type="text" name="estado" id="estado">
+                    </div>
+                    <div class="formulario__check"> <input type="checkbox" name="checkar" id="checar"> Concordo com os termos de uso</div>
+                    <button type="submit" class="formulario__botao-enviar">Criar conta</button>
+                </div>
+                </div>
+        </section>
         <footer class="rodape">
             Contato: exemplo@email.com.br
         </footer>
         <!--Animacao deixa o banner visivel vindo de left para right-->
-    </body>
+
+        <script src="script.js"></script>
+
+</body>
 </html>

@@ -1,6 +1,10 @@
 .banner__imagem{
-    background: url(/assets/img/banner.jpg) no-repeat center/ cover;
     width: 100%;    
+}
+
+.banner__imagem-1{
+    background: url(/assets/img/banner.jpg) no-repeat center/ cover;
+
 }
 
 .banner__imagem-2{

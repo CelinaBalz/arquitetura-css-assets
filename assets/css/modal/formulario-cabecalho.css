@@ -1,0 +1,15 @@
+.formulario-cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    margin: 2rem;
+    border-bottom: 1px black solid;
+}
+
+.formulario__titulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.4375rem;
+}
+

@@ -1,15 +1,17 @@
 .sobre{
     text-align: center;
+    display: flex;
+    flex-direction: column; 
 }
 
 @media screen and (min-width: 0){
     .sobre{
-        padding: 2.5rem 1rem;
+        padding: 5.5rem 1rem;
     }
 }
 
 @media screen and (min-width: 768px){
     .sobre{
-        padding: 2.5rem;
+        padding: 5.5rem;
     }
 }

@@ -3,19 +3,6 @@
     display: flex;
     width: 100vw;
     animation-delay: 4s;
-    animation: transition 20s ease-in;
-}
-
-@keyframes transition {
-    0% {
-        right: 0%;
-    }
-    50% {
-        right: 102%;
-    }
-    100%{
-        right: 205%;
-    }
 }
 
 
